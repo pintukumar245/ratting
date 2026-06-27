@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: project23
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run "resume_parser_final (1).py" --server.port $PORT --server.enableCORS false
