@@ -1,1 +1,1 @@
-streamlit run "C:\Users\BIT\OneDrive\New folder\Desktop\NEXUS INTERSHIP\PROJECT 2\resume_parser_final (1).py"
+streamlit run app.py

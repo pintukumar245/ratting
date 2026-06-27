@@ -5,4 +5,4 @@ services:
     region: oregon
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run "resume_parser_final (1).py" --server.port $PORT --server.enableCORS false
+    startCommand: streamlit run app.py --server.port $PORT --server.enableCORS false
